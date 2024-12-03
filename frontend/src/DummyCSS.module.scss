@@ -1,0 +1,142 @@
+.cricket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+  }
+  
+  .scoreSection {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .quizSection {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .questionSection {
+    margin-bottom: 20px;
+  }
+  
+  .optionsSection {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .option {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .option:hover {
+    background-color: #d0d0d0;
+  }
+  
+  .selected {
+    background-color: #b0d4f1;
+    pointer-events: none;
+  }
+
+  .navigateButton {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .nextButton {
+    //margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: auto;
+  }
+
+  .prevButton {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .nextButton:hover {
+    background-color: #45a049;
+  }
+
+  .timer{
+    margin-top: 10px;
+  }
+  
+  button.option:hover {
+    background-color: #f0f0f0;
+  }
+  
+  button.option.selected {
+    background-color: #d1e7dd;
+    border-color: #28a745;
+  }
+
+  
+  .navigationBar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+  }
+  
+  .navButton {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .navButton.active {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .navButton.answered {
+    background-color: green;
+    color: white;
+  }
+  
+  .navButton.unanswered {
+    background-color: red;
+    color: white;
+  }
+  
+  // .submitButton {
+  //   margin-top: 20px;
+  //   padding: 10px 20px;
+  //   background-color: blue;
+  //   color: white;
+  //   border: none;
+  //   border-radius: 5px;
+  //   cursor: pointer;
+  // }
+  
