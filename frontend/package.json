@@ -36,8 +36,7 @@
       "last 1 safari version"
     ]
   },
- {
-  "dependencies": {
-    "react": "^17.0.2"  // No comma here!
+ "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
