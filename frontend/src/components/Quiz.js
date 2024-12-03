@@ -76,7 +76,7 @@ const Quiz = () => {
         }));
 
         try {
-            const response = await fetch(`https://render.com/docs/web-services#port-binding/api/quiz/${sport}/answer`, {
+            const response = await fetch(`https://render.com/docs/web-services#port-binding/quiz/${sport}/answer`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ sessionId, answers: answersToSubmit }),
