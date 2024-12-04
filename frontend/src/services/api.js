@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://render.com/docs/web-services#port-binding/';
+const API_URL = 'https://sport-quiz-backend.onrender.com';
 
 export const getQuestions = async (sport) => {
     try {
